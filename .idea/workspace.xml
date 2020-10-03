@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f58259f3-8bf7-4ab7-ac6d-b25573ec7a72" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1iMtpbDNpwLAwVG7yGQxqHOIXxd" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Bibliotheque" />
+      <module name="bibliotheque" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f58259f3-8bf7-4ab7-ac6d-b25573ec7a72" name="Default Changelist" comment="" />
+      <created>1601729473008</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1601729473008</updated>
+      <workItem from="1601729477682" duration="5753000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="981" y="218" width="633" height="707" key="#com.intellij.ide.util.MemberChooser" timestamp="1601733185157">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="981" y="218" width="633" height="707" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1601733185157" />
+    <state x="837" y="191" width="902" height="732" key="#xdebugger.evaluate" timestamp="1601734907425">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state x="837" y="191" width="902" height="732" key="#xdebugger.evaluate/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1601734907425" />
+    <state width="1794" height="262" key="GridCell.Tab.0.bottom" timestamp="1601735116038">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="262" key="GridCell.Tab.0.bottom/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1601735116038" />
+    <state width="1794" height="262" key="GridCell.Tab.0.center" timestamp="1601735116037">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="262" key="GridCell.Tab.0.center/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1601735116037" />
+    <state width="1794" height="262" key="GridCell.Tab.0.left" timestamp="1601735116037">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="262" key="GridCell.Tab.0.left/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1601735116037" />
+    <state width="1794" height="262" key="GridCell.Tab.0.right" timestamp="1601735116038">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="262" key="GridCell.Tab.0.right/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1601735116038" />
+    <state width="1794" height="326" key="GridCell.Tab.1.bottom" timestamp="1601734970468">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="326" key="GridCell.Tab.1.bottom/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1601734970468" />
+    <state width="1794" height="326" key="GridCell.Tab.1.center" timestamp="1601734970467">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="326" key="GridCell.Tab.1.center/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1601734970467" />
+    <state width="1794" height="326" key="GridCell.Tab.1.left" timestamp="1601734970467">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="326" key="GridCell.Tab.1.left/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1601734970467" />
+    <state width="1794" height="326" key="GridCell.Tab.1.right" timestamp="1601734970467">
+      <screen x="0" y="0" width="1920" height="1080" />
+    </state>
+    <state width="1794" height="326" key="GridCell.Tab.1.right/0.0.1920.1080/1920.0.1440.900@0.0.1920.1080" timestamp="1601734970467" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/Bibliotheque.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/company/entity/Adherent.java</url>
+          <line>50</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/bibliotheque$Main.ic" NAME="Main Coverage Results" MODIFIED="1601733510534" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
