@@ -2,6 +2,7 @@ package com.company;
 
 import com.company.entity.*;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
 
@@ -40,6 +41,35 @@ public class Bibliotheque {
         return documents;
     }
 
+    private Document[] chercherDocument(String titre, Document[] docs) {
+        int k = 0;
+        List<Integer> found = new ArrayList<>();
+        for(int i=0;i<docs.length;i++) {
+            if(docs[i].getTitre().indexOf(titre)!=-1){
+                k++;
+                found.add(i);
+            }
+        }
+        Document[] res = new Document[k];
+        int i=0;
+        for(Integer f:found){
+            res[i] = docs[f];
+            i++;
+        }
+        return res;
+    }
+
+    private void listerDocuments(Document[] doc){
+       for (int i=0;i<doc.length;i++ ){
+            if(doc[i].empruntable() && ((Livre) doc[i]).getAdherent()!=null){
+                System.out.println("document livre imprimé:************** " + doc[i].getTitre() +" "+  ((Livre) doc[i]).getAdherent().getNom() + " "+ ((Livre) doc[i]).getAdherent().getPrenom());
+            } else {
+                System.out.println("document imprimé:**************** " + doc[i].getTitre() );
+            }
+        }
+
+    }
+
     public static void main(String[] args) {
         // write your code here
         Bibliotheque bibli = new Bibliotheque();
@@ -54,7 +84,7 @@ public class Bibliotheque {
         docs[0] = new Livre("Misérables","Hugo V.");
         docs[1] = new Journal("Dr Dobbs",new Date(10,2003)); // 10 représente le mois de septembre
         docs[2] = new BD("Thorgal: La galère noire","Van Hamme", "Rosinsky");
-        docs[3] = new Livre("Systèmes multi-agents","Ferber J.");
+        docs[3] = new Livre("Systèmes multi-agents","Ferber J.",ad1);
         for (int i=0;i<n;i++ ){
             System.out.println("document "+docs[i].getTitre());
             bibli.ajouterDocument(docs[i]);
@@ -64,6 +94,14 @@ public class Bibliotheque {
         Livre livreEmp =  new Livre("Systèmes multi-agents","Ferber J.");
         Adherent adEmp = new Adherent("yahia","sboui");
         adEmp.emprunter(livreEmp,adEmp);
-        adEmp.rendre(livreEmp);
+        //adEmp.rendre(livreEmp);
+        // Question 4:
+        Document[] trouve = bibli.chercherDocument("Misérables",docs);
+        for (int i=0;i<trouve.length;i++ ){
+            System.out.println("document "+trouve[i].getTitre());
+        }
+        // Question 5
+        bibli.listerDocuments(docs);
+
     }
 }
